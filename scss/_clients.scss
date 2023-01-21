@@ -1,0 +1,56 @@
+.clients {
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        line-height: $rating-line-height;
+        font-size: $rating-font-size;
+        color: $rating-color;
+        gap: 20px;
+        row-gap: 50px;
+
+        .logo {
+            justify-content: left;
+            img {
+                height: $rating-logo-height;
+                margin-bottom: 20px;
+            }
+        }
+
+        .stars {
+            justify-content: right;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-bottom: 10px;
+                height: $rating-stars-height;
+            }
+        }
+    }
+
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 75px;
+        flex-wrap: wrap;
+        gap: 20px;
+        row-gap: 50px;
+
+        .amazon {
+            display: flex;
+            width: 204px;
+            height: 91px;
+            box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.04);
+            border-radius: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 30px;
+            display: block;
+        }
+    }
+}

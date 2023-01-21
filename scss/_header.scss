@@ -1,0 +1,75 @@
+header {
+    background-color: $header-bg-color;
+    margin-bottom: 30px;
+
+    .navbar {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        padding: 38px 10px;
+        font-size: $navbar-font-size;
+        line-height: $navbar-line-height;
+
+        .logo {
+            cursor: pointer;
+            width: 107px;
+            height: 24px;
+            margin-right: 50px;
+        }
+
+        nav {
+            margin-right: auto;
+        }
+
+        li {
+            color: $navbar-li-color;
+            display: inline-block;
+            margin: 0px 15px;
+        }
+
+        .signup {
+            color: $button-bg-color;
+        }
+
+        button {
+            height: 40px;
+            border-radius: 8px;
+            padding: 10px 20px;
+            margin-left: 18px;
+        }
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-welcome {
+            line-height: $header-welcome-line-height;
+            font-size: $header-font-size;
+            color: $header-welcome-color;
+        }
+
+        h1 {
+            line-height: $h1-line-height;
+            font-size: $h1-font-size;
+            color: $h1-color;
+            font-weight: $font-weight-bolder;
+        }
+
+        .header-text {
+            line-height: $header-text-line-height;
+            font-size: $header-font-size;
+            color: $header-text-color;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-weight: $font-weight-light;
+        }
+
+        img {
+            width:100%;
+        }
+    }
+}
