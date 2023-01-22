@@ -1,0 +1,46 @@
+.blue-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    position: relative;
+    background-color: $blue-div-bg-color;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    
+        
+    img {
+        display: block;
+        max-width: 500px;
+    }    
+    
+
+    .content {
+
+        margin-left: 10%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        h3 {
+            color: white;
+        }
+
+        p {
+            line-height: $blue-div-line-height;
+            font-size: $blue-div-font-size;
+            color: white;
+            font-weight: $font-weight-light;
+            padding: 20px 0px;
+        }
+
+        button {
+            background-color: white;
+            color: $blue-div-button-color;
+            
+            &:hover {
+                background-color: rgba(238, 148, 23, 0.799);
+                color: black;
+            }
+        }
+    }
+}

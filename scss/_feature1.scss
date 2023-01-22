@@ -65,14 +65,19 @@
                 }
                 div {
                     width: 330px;
+                    height: 16px;
                     display: flex;
                     margin-top: 15px;
+                    margin-bottom: 10px;
 
                     p {
                         display: inline-block;
                         line-height: $cards-info-line-height;
                         color: $cards-info-color;
                         font-weight: $font-weight-normal;
+                    }
+                    img {
+                        height: $cards-info-line-height;
                     }
                 }
             }

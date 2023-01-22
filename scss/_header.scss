@@ -45,6 +45,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        // flex-wrap: wrap;
 
         .header-welcome {
             line-height: $header-welcome-line-height;
@@ -69,7 +70,7 @@ header {
         }
 
         img {
-            width:100%;
+            width: 100%;
         }
     }
 }
